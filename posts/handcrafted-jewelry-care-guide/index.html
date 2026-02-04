@@ -186,6 +186,10 @@
     ]
 }
 </script>
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#c9a227">
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
 </head>
 <body class="body">
     <header class="site-header">
@@ -439,6 +443,12 @@
             <p class="footer__copyright">&copy; 2026 adokiye.com. All rights reserved.</p>
         </div>
     </footer>
+
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js').catch(function() {});
+}
+</script>
 </body>
 </html>
 

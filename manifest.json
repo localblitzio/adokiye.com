@@ -1,0 +1,21 @@
+{
+  "name": "Adokiye",
+  "short_name": "Adokiye",
+  "description": "Adokiye is a Nigerian Afro-fusion artist, singer, and songwriter.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#c9a227",
+  "background_color": "#1a1a1a",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

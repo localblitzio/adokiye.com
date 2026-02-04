@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
     <link rel="preload" href="../../css/style.css" as="style">
@@ -36,6 +36,10 @@
     "dateModified": "2026-02-04"
 }
 </script>
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#c9a227">
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
 </head>
 <body class="body">
 <header class="header">
@@ -193,5 +197,11 @@
         </footer>
     </div>
 </footer>
+
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js').catch(function() {});
+}
+</script>
 </body>
 </html>

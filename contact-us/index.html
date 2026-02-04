@@ -710,7 +710,7 @@ body {
 }
 </script>
 
-    <meta property="og:image" content="https://adokiye.com/images/logo.webp">
+    <meta property="og:image" content="https://adokiye.com/images/_hu6b29f34eb925fb884ec60c40ab8e328f_16686_0dee78fe862aa4ace1ce2e2d55617053.webp">
     <meta property="og:url" content="https://adokiye.com/contact-us/index.html">
     <meta property="og:site_name" content="Contact Us">
 <script type="application/ld+json">
@@ -737,7 +737,7 @@ body {
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Contact Us | Adokiye - Your Direct Line to Experts">
     <meta name="twitter:description" content="Get in touch with Adokiye team! We are here to help you with any inquiries, feedback, or support you need. Contact us today for personalized assistance.">
-    <meta name="twitter:image" content="https://adokiye.com/images/logo.webp">
+    <meta name="twitter:image" content="https://adokiye.com/images/_hu6b29f34eb925fb884ec60c40ab8e328f_16686_0dee78fe862aa4ace1ce2e2d55617053.webp">
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
@@ -750,6 +750,10 @@ body {
     }
 }
 </script>
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#c9a227">
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
 </head>
 <body class="body">		
 	<header class="header">
@@ -858,9 +862,7 @@ Alternatively, you can fill out our <a href="https://adokiye.com/contact-form">C
             <!-- Column 1: Logo & Bio -->
             <div class="footer-column about-section">
                 <div class="footer-logo">
-                    <!-- ** ACTION REQUIRED: Replace with your actual logo ** -->
-                    <img src="https://adokiye.com/contact-us/placeholder-logo.png" alt="Adokiye Footer Logo" style="max-width: 150px; height: auto; margin-bottom: 15px;">
-                    <!-- Or use text: <h2>ADOKIYE</h2> -->
+                    <h2>ADOKIYE</h2>
                 </div>
                 <h4>About Adokiye</h4>
                 <p>
@@ -893,9 +895,6 @@ Alternatively, you can fill out our <a href="https://adokiye.com/contact-form">C
                     <!-- Note: Using <pre> for simple text formatting of the calendar -->
                 </div>
                 <div class="footer-image">
-                     <!-- ** ACTION REQUIRED: Replace with your actual image path ** -->
-                    <img src="https://adokiye.com/contact-us/placeholder-image-17.jpg" alt="Archived Image" style="max-width: 100px; height: auto; margin-top: 15px;">
-                    <p style="font-size: 0.8em; color: #888;">(image-17 reference)</p>
                 </div>
             </div>
 
@@ -921,6 +920,12 @@ Alternatively, you can fill out our <a href="https://adokiye.com/contact-form">C
 		
 	</div>
 </footer>
+
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js').catch(function() {});
+}
+</script>
 </body>
 </html>
 
