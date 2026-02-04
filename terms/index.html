@@ -1,0 +1,924 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <link rel="preload" href="../css/style.css" as="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<title>Terms and Conditions - Adokiye</title>
+	
+	
+	<link rel="canonical" href="https://adokiye.com/terms/index.html" />
+	
+	
+	
+	
+ 
+	<meta name="description" content="Read the terms and conditions governing your use of Adokiye.com. Understand your rights, responsibilities, and legal obligations when accessing our services.">
+	
+	
+	
+	
+
+	<link rel="stylesheet" href="../css/style.css">
+	
+
+	
+
+	
+	<link rel="icon" type="image/x-icon" href="../favicon_adokiye_exquisite_craftsmanship_meets_timeless_design.png">
+	<link rel="icon" type="image/png" href="../favicon_adokiye_exquisite_craftsmanship_meets_timeless_design.png">
+		
+
+	
+	
+    <style>/* --- Global Styles & Typography --- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+    background-color: #f9f9f9; /* Slightly off-white background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Add a wrapper around your main content for centering */
+.main-content-area {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif; /* Serif font for headings */
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-top: 1.5em;
+    margin-bottom: 0.7em;
+    line-height: 1.3;
+}
+
+h1 { font-size: 2.5em; border-bottom: 2px solid #eee; padding-bottom: 0.3em; }
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.3em; font-weight: 700; } /* Make h3 slightly bolder */
+
+p {
+    margin-bottom: 1em;
+    color: #555;
+}
+
+a {
+    color: #007bff; /* Standard link blue */
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto; /* Important for responsiveness, overrides inline height/width */
+    display: block; /* Remove extra space below image */
+    border-radius: 5px; /* Slightly rounded corners for images */
+}
+
+/* Remove default list styles */
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* --- Helper Classes (from HTML) --- */
+.omc-resize-620,
+.omc-resize-290,
+.omc-resize-290-40margin {
+    /* These seem like layout hints, modern CSS (Flex/Grid) handles this better */
+    /* We'll rely on Flexbox/Grid defined below */
+}
+
+/* --- Flex Slider --- */
+.flex-container.omc-resize-620 {
+    position: relative; /* Needed for absolute positioning of caption/controls */
+    margin-bottom: 40px;
+    background-color: #ddd; /* Placeholder background */
+    border-radius: 8px;
+    overflow: hidden; /* Important for rounded corners with images */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.flexslider ul li {
+    position: relative; /* For caption positioning */
+    display: none; /* JS will show the active slide */
+}
+
+.flexslider ul li:first-child {
+     display: block; /* Show the first slide by default */
+}
+
+.flexslider img.attachment-featured-image {
+    width: 100%; /* Ensure image fills the container */
+    max-height: 500px; /* Limit slider height */
+    object-fit: cover; /* Cover the area, may crop */
+    border-radius: 0; /* Remove radius from image inside slider if needed */
+    display: block;
+}
+
+.flex-caption.omc-featured-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+    color: #fff;
+    padding: 25px;
+    border-bottom-left-radius: 8px; /* Match container radius */
+    border-bottom-right-radius: 8px;
+}
+
+.flex-caption h1 {
+    font-size: 1.8em; /* Adjust size for caption */
+    color: #fff;
+    margin: 0 0 10px 0;
+    border-bottom: none; /* Remove global border */
+    padding-bottom: 0;
+}
+
+.flex-caption p {
+    color: #eee;
+    margin: 0;
+    font-size: 0.95em;
+}
+
+/* --- Slider Controls (Position relative to flex-container) --- */
+/* Style the separate ol/ul for pagination/arrows if they control the slider */
+.flex-container > ol { /* Pagination Dots */
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+}
+
+.flex-container > ol li {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-indent: -9999px; /* Hide text like '1', '2' */
+}
+
+.flex-container > ol li:hover,
+.flex-container > ol li.active { /* Add .active class via JS */
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.flex-container > ul { /* Prev/Next Arrows */
+    z-index: 10;
+}
+
+.flex-container > ul li {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5em;
+    transition: background-color 0.3s ease;
+}
+.flex-container > ul li:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.flex-container > ul li:first-child { /* Assuming first is Prev */
+    left: 15px;
+}
+.flex-container > ul li:last-child { /* Assuming last is Next */
+    right: 15px;
+}
+
+
+/* --- Half Width Categories (Music/Videos) --- */
+.categories-row { /* Create this wrapper in your HTML if needed */
+    display: flex;
+    flex-wrap: wrap; /* Wrap on smaller screens */
+    gap: 30px; /* Space between columns */
+    margin-bottom: 40px;
+}
+
+.omc-half-width-category {
+    flex: 1; /* Each takes half the space */
+    min-width: 300px; /* Minimum width before wrapping */
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    margin-right: 0 !important; /* Override inline style */
+    display: flex; /* Use flex for internal layout */
+    flex-direction: column;
+}
+
+.omc-half-width-category > h1 {
+    margin-top: 0; /* Remove top margin for section titles */
+    font-size: 1.6em;
+}
+
+/* Main item in half-width */
+.omc-half-width-category .omc-module.omc-resize-290 {
+    margin-bottom: 15px;
+}
+.omc-half-width-category .omc-module img.omc-image-resize {
+     width: 100%; /* Override inline styles */
+     height: auto;
+     max-height: 250px; /* Limit image height */
+     object-fit: cover;
+}
+
+.omc-half-width-category > h2 {
+    font-size: 1.4em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+.omc-half-width-category > h2 em {
+    font-style: normal;
+}
+
+.omc-half-width-category > p {
+    font-size: 0.9em;
+    margin-bottom: 25px; /* Space before list */
+    flex-grow: 1; /* Allow description to push list down if content heights vary */
+}
+
+/* List of smaller items in half-width */
+.omc-half-width-category .article-item { /* Add this class wrapper in HTML if needed */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.omc-half-width-category img.attachment-small-square {
+    flex-shrink: 0; /* Prevent image from shrinking */
+    width: 60px !important; /* Override inline style */
+    height: 60px !important;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.omc-half-width-category .article-item div { /* Add div wrapper around h3/meta */
+     flex-grow: 1;
+}
+
+.omc-half-width-category .article-item h3 {
+    font-size: 1em;
+    margin: 0 0 5px 0;
+    font-family: 'Roboto', sans-serif; /* Use sans-serif for list items */
+    font-weight: 600;
+    line-height: 1.4;
+}
+.omc-half-width-category .article-item h3 em {
+    font-style: normal;
+    color: #007bff; /* Style arrow */
+    margin-left: 5px;
+}
+.omc-half-width-category .article-item .meta { /* Add class for meta */
+    font-size: 0.8em;
+    color: #777;
+}
+
+/* --- Full Width Gallery List --- */
+.omc-gallery-list {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    margin-bottom: 40px;
+}
+.omc-gallery-list > h1 {
+    margin-top: 0;
+    font-size: 1.6em;
+}
+
+#carousel .es-carousel-wrapper {
+    position: relative; /* For nav */
+    padding: 10px 0; /* Space for items */
+    background-color: #fdfdfd;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+#carousel .es-carousel ul {
+    display: flex; /* Use flex for horizontal layout */
+    gap: 15px;
+    overflow-x: auto; /* Simple scroll fallback if JS fails */
+    padding: 10px;
+}
+
+#carousel .es-carousel ul li {
+    flex: 0 0 auto; /* Prevent stretching, allow natural width */
+    width: 190px; /* Approximate width based on HTML */
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+#carousel .es-carousel ul li img {
+    width: 100%; /* Use container width */
+    height: 150px !important; /* Maintain aspect */
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+#carousel .es-nav {
+    /* Basic styling - JS usually enhances this */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    pointer-events: none; /* Allow clicks through */
+}
+
+#carousel .es-nav span { /* Assuming Prev/Next are spans */
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    pointer-events: all; /* Enable clicks on arrows */
+    transition: background-color 0.3s ease;
+}
+#carousel .es-nav span:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* --- Full Width Blog Module --- */
+.omc-module-b {
+    display: flex;
+    flex-wrap: wrap; /* Wrap on smaller screens */
+    gap: 30px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    margin-bottom: 40px;
+}
+.omc-module-b > h1 {
+    width: 100%; /* Title spans full width */
+    margin-top: 0;
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+
+/* Left Column - Featured Post */
+.omc-module-b-left-column {
+    flex: 2; /* Takes more space */
+    min-width: 300px;
+}
+.omc-module-b-left-column .omc-module.omc-relative {
+    /* Style the placeholder if it contains an image */
+    /* background: #eee; height: 200px; margin-bottom: 15px; border-radius: 5px; */
+    /* If it's truly just Â , hide it or remove from HTML */
+    display: none;
+}
+.omc-module-b-left-column h2 {
+    font-size: 1.4em;
+    margin-top: 0;
+}
+.omc-module-b-left-column .meta { /* Add class for meta */
+    font-size: 0.85em;
+    color: #777;
+    margin-bottom: 10px;
+    display: block; /* Put on its own line */
+}
+.omc-module-b-left-column p {
+    font-size: 0.95em;
+}
+
+/* Right Column - List */
+.omc-module-b-right-column {
+    flex: 1; /* Takes less space */
+    min-width: 250px;
+    background-color: #f7f7f7; /* Slightly different bg */
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+.omc-module-b-right-column h3 {
+    font-size: 1em;
+    margin: 0 0 15px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #ccc;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.omc-module-b-right-column h3:last-of-type {
+    border-bottom: none; /* Remove border from last item */
+    margin-bottom: 20px;
+}
+
+.omc-module-b-right-column h5 { /* "also in the category" */
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 10px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+.omc-category-block {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* --- Empty Paragraphs --- */
+p:empty, p > br:only-child, p > nbsp:only-child {
+    display: none; /* Hide paragraphs used just for spacing */
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 992px) {
+    h1 { font-size: 2.1em; }
+    h2 { font-size: 1.6em; }
+    h3 { font-size: 1.2em; }
+
+    .flex-caption h1 { font-size: 1.5em; }
+}
+
+@media (max-width: 768px) {
+    .main-content-area {
+        padding: 15px;
+    }
+
+    .categories-row,
+    .omc-module-b {
+        flex-direction: column; /* Stack columns */
+        gap: 25px;
+    }
+
+    .omc-half-width-category,
+    .omc-module-b-left-column,
+    .omc-module-b-right-column {
+        min-width: 100%; /* Ensure they take full width when stacked */
+    }
+
+    h1 { font-size: 1.8em; }
+    h2 { font-size: 1.4em; }
+    h3 { font-size: 1.1em; }
+
+    .flex-caption { padding: 15px; }
+    .flex-caption h1 { font-size: 1.3em; }
+    .flex-caption p { font-size: 0.9em; }
+
+    .flex-container > ul li { padding: 8px 12px; font-size: 1.2em;}
+}
+
+@media (max-width: 480px) {
+     body { font-size: 15px; }
+     .main-content-area { padding: 10px; }
+
+     h1 { font-size: 1.6em; }
+     h2 { font-size: 1.3em; }
+     h3 { font-size: 1.0em; }
+
+     .omc-half-width-category,
+     .omc-gallery-list,
+     .omc-module-b,
+     .omc-module-b-right-column {
+         padding: 15px;
+     }
+
+     .flex-caption h1 { font-size: 1.2em; }
+     .flex-caption p { display: none; } /* Hide description on very small screens */
+
+     .flex-container > ol { display: none; } /* Hide dots */
+     .flex-container > ul li { display: none; } /* Hide arrows */
+
+     .omc-half-width-category .article-item { flex-direction: column; align-items: flex-start; }
+     .omc-half-width-category img.attachment-small-square { width: 100% !important; height: 150px !important; margin-bottom: 10px;}
+}</style>
+
+<style>/* Import a nice font (optional) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Apply the font */
+}
+
+.custom-footer {
+    background-color: #1a1a1a; /* Dark background */
+    color: #cccccc; /* Light grey text */
+    padding: 50px 20px 20px 20px; /* Top, Sides, Bottom */
+    border-top: 5px solid #f0c40f; /* Accent color (adjust as needed) */
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow columns to wrap on smaller screens */
+    justify-content: space-between;
+    max-width: 1200px; /* Limit width */
+    margin: 0 auto 30px auto; /* Center container, add space before bottom bar */
+    gap: 30px; /* Space between columns */
+}
+
+.footer-column {
+    flex: 1; /* Allow columns to grow */
+    min-width: 250px; /* Minimum width before wrapping */
+    margin-bottom: 20px; /* Space below columns when they stack */
+}
+
+/* Headings */
+.footer-column h4,
+.footer-column h5 {
+    color: #ffffff; /* White headings */
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #444; /* Subtle separator */
+    font-weight: 700; /* Bolder headings */
+}
+.footer-column h5 {
+    font-size: 1em; /* Slightly smaller heading for calendar */
+}
+
+/* About Section */
+.about-section p {
+    color: #a0a0a0; /* Slightly dimmer text for bio */
+    font-size: 0.95em;
+}
+
+.footer-logo img {
+    display: block; /* Prevents extra space below image */
+    /* Ensure max-width is set in HTML or here if preferred */
+}
+.footer-logo h2 { /* Style if using text logo */
+    color: #f0c40f; /* Accent color */
+    font-size: 2em;
+    margin: 0 0 15px 0;
+}
+
+/* Tags Section */
+.tag-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px; /* Space between tags */
+}
+
+.tag-list li {
+    background-color: #333;
+    color: #eee;
+    padding: 5px 12px;
+    border-radius: 15px; /* Pill shape */
+    font-size: 0.85em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: default; /* Change if they become links */
+}
+/* Optional hover effect if tags become links */
+/*
+.tag-list li:hover {
+    background-color: #f0c40f;
+    color: #1a1a1a;
+    cursor: pointer;
+}
+*/
+
+
+/* Misc Section - Calendar */
+.footer-calendar pre {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    line-height: 1.5;
+    color: #bbb;
+    white-space: pre; /* Keep formatting */
+    overflow-x: auto; /* Allow scrolling if needed on small screens */
+    font-family: monospace; /* Use monospace for alignment */
+    border: 1px solid #444;
+}
+.footer-calendar h5 {
+    margin-bottom: 8px; /* Less space after calendar title */
+}
+
+
+/* Misc Section - Image */
+.footer-image img {
+    border: 1px solid #444;
+    border-radius: 4px;
+    /* Ensure max-width is set in HTML or here if preferred */
+}
+.footer-image p {
+    margin-top: 5px; /* Space above image caption */
+}
+
+
+/* Bottom Bar */
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #444; /* Separator line */
+    font-size: 0.9em;
+    color: #888;
+}
+.footer-bottom p {
+    margin: 0 0 10px 0; /* Space below copyright */
+}
+
+/* Optional Social Links Styling */
+.social-links a {
+    color: #aaa;
+    margin: 0 10px;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+.social-links a:hover {
+    color: #f0c40f; /* Accent color on hover */
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Stack columns */
+        gap: 20px; /* Adjust gap for stacked layout */
+    }
+    .footer-column {
+        min-width: 100%; /* Make columns full width */
+        margin-bottom: 30px; /* More space between stacked columns */
+    }
+    .custom-footer {
+        padding: 40px 15px 15px 15px; /* Adjust padding for smaller screens */
+    }
+}</style>
+
+
+	
+	
+
+	
+	
+
+	
+
+	
+	
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Terms and Conditions - Adokiye",
+    "description": "Read the terms and conditions governing your use of Adokiye.com. Understand your rights, responsibilities, and legal obligations when accessing our services.",
+    "url": "https://adokiye.com/terms/index.html",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Adokiye: Exquisite Craftsmanship Meets Timeless Design",
+        "url": "https://adokiye.com/",
+        "logo": "https://adokiye.com/favicon.ico"
+    }
+}
+</script>
+
+    <meta property="og:image" content="https://adokiye.com/images/logo.webp">
+    <meta property="og:url" content="https://adokiye.com/terms/index.html">
+    <meta property="og:site_name" content="Terms and Conditions - Adokiye">
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://adokiye.com/"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Terms and Conditions",
+            "item": "https://adokiye.com/terms/"
+        }
+    ]
+}
+</script>
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Terms and Conditions - Adokiye">
+    <meta name="twitter:description" content="Read the terms and conditions governing your use of Adokiye.com. Understand your rights, responsibilities, and legal obligations when accessing our services.">
+    <meta name="twitter:image" content="https://adokiye.com/images/logo.webp">
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Terms and Conditions - Adokiye",
+    "url": "https://adokiye.com/terms/index.html",
+    "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".post__content > p:first-of-type", ".post__content h2", ".faq-item h3", ".faq-item p"]
+    }
+}
+</script>
+</head>
+<body class="body">		
+	<header class="header">
+	<div class="container header__container">
+		
+    <div class="logo-container">
+        <a class="logo-link" 
+           href="../index.html"
+            
+           aria-label="Return to Adokiye: Exquisite Craftsmanship Meets Timeless Design homepage"
+            
+           rel="home">
+            <div class="logo-image-wrapper">
+                    
+                    
+                        
+                        <img class="logo-image" 
+                            src="../images/_hu6b29f34eb925fb884ec60c40ab8e328f_16686_0dee78fe862aa4ace1ce2e2d55617053.webp" 
+                            
+                                alt="Adokiye image"
+                                role="presentation"
+                            
+                            width="100"
+                            height="75">
+                    
+                </div><div class="logo-text">
+                    <span class="site-title">Adokiye: Exquisite Craftsmanship Meets Timeless Design</span>
+                    
+                </div>
+        </a>
+    </div>
+		
+			
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="../index.html">
+				
+				<span class="menu__text">Home</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="../category/index.html">
+				
+				<span class="menu__text">Category</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="../support-adokiyes-charity-program-adochange/index.html">
+				
+				<span class="menu__text">Support adokiyes charity program adochange</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+		
+	</div>
+</header>
+    <main><h1>Terms and Conditions</h1></main>
+
+
+			
+	<div class="content post__content clearfix">
+		
+<p><strong>1. Introduction</strong><br />
+Welcome to Adokiye.com. These Terms and Conditions outline the rules and regulations for the use of our website. By accessing or using our site, you agree to comply with these terms. If you do not agree with any part of these terms, you must not use our site.</p>
+<p><strong>2. Definitions</strong><br />
+In these Terms and Conditions, "we", "us" and "our" refer to Adokiye.com. "You" refers to the user or viewer of our website.</p>
+<p><strong>3. Use of the Website</strong><br />
+You must use Adokiye.com in accordance with all applicable laws and regulations. You agree not to:
+- Use the site in any unlawful manner<br />
+- Engage in activities that could damage, disable, overburden, or impair the website<br />
+- Attempt to gain unauthorized access to our servers or networks  </p>
+<p><strong>4. Intellectual Property Rights</strong><br />
+All content, trademarks, and other intellectual property displayed on Adokiye.com are the property of Adokiye or our licensors. You may not reproduce, distribute, or create derivative works without our express written consent.</p>
+<p><strong>5. User Accounts</strong><br />
+Certain features of our site may require you to create an account. You are responsible for maintaining the confidentiality of your account information. You agree to notify us immediately of any unauthorized use of your account.</p>
+<p><strong>6. Limitation of Liability</strong><br />
+To the fullest extent permitted by law, Adokiye shall not be liable for any damages arising out of or in connection with your use of the site. This includes, but is not limited to, any loss of profits, data, or other intangible losses.</p>
+<p><strong>7. Governing Law</strong><br />
+These Terms and Conditions are governed by the laws of [Your Country]. Any disputes will be resolved in accordance with the laws of [Your Country] without regard to its conflict of law principles.</p>
+<p><strong>8. Changes to the Terms</strong><br />
+We may update these Terms and Conditions from time to time. We will notify you of any changes by posting the new terms on our website. Your continued use of the site after any changes signifies your acceptance of the new terms.</p>
+<p><strong>9. Contact Information</strong><br />
+If you have any questions about these Terms and Conditions, please contact us at <a href="#" class="__cf_email__" data-cfemail="bac9cfcacad5c8cefadbded5d1d3c3df94d9d5d7">[email&#160;protected]</a>.  </p>
+<p>By using our website, you acknowledge that you have read these terms and agree to be bound by them.</p>
+
+	</div>
+		
+			
+	<footer class="footer">
+	<div class="container footer__container flex">
+		
+			<footer class="custom-footer">
+        <div class="footer-container">
+
+            <!-- Column 1: Logo & Bio -->
+            <div class="footer-column about-section">
+                <div class="footer-logo">
+                    <!-- ** ACTION REQUIRED: Replace with your actual logo ** -->
+                    <img src="https://adokiye.com/terms/placeholder-logo.png" alt="Adokiye Footer Logo" style="max-width: 150px; height: auto; margin-bottom: 15px;">
+                    <!-- Or use text: <h2>ADOKIYE</h2> -->
+                </div>
+                <h4>About Adokiye</h4>
+                <p>
+                    Born Adokiye Ngozi Kyrian to a christian family of Oguta L.G.A in Imo State and Ogu Bolo in Okrika L.G.A. of Rivers State, all in Nigeria. "ADOKIYE" as she is widely known is a singer and song writer whose musical style is deep rooted in the Afro-fusion genre of music.
+                </p>
+            </div>
+
+            <!-- Column 2: Tags -->
+            <div class="footer-column tags-section">
+                <h4>Tags</h4>
+                <ul class="tag-list">
+                    <!-- ** ACTION REQUIRED: Add links if these tags should navigate somewhere ** -->
+                    <li>adokiye</li><li>body to body</li><li>charity</li><li>dabotalawson</li><li>download</li><li>glory</li><li>kid nation</li><li>listen</li><li>love u better</li><li>music</li><li>ring back tune</li><li>spinlet</li><li>sym 19</li><li>video</li><li>watch</li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Archive / Misc -->
+            <div class="footer-column misc-section">
+                <h4>From the Archives</h4> <!-- Giving context to the old calendar -->
+                <div class="footer-calendar">
+                    <h5>October 2016</h5>
+                    <pre> M  T  W  T  F  S  S
+« Jan
+                  1  2
+ 3  4  5  6  7  8  9
+10 11 12 13 14 15 16
+17 18 19 20 21 22 23
+24 25 26 27 28 29 30
+31</pre>
+                    <!-- Note: Using <pre> for simple text formatting of the calendar -->
+                </div>
+                <div class="footer-image">
+                     <!-- ** ACTION REQUIRED: Replace with your actual image path ** -->
+                    <img src="https://adokiye.com/terms/placeholder-image-17.jpg" alt="Archived Image" style="max-width: 100px; height: auto; margin-top: 15px;">
+                    <p style="font-size: 0.8em; color: #888;">(image-17 reference)</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Bottom Bar -->
+        <p style="text-align:center;margin-bottom:10px;"><a href="../sitemap.html" style="color:inherit;">Sitemap</a></p>
+        <div class="footer-bottom">
+            <p>© <span id="current-year"></span> Adokiye. All Rights Reserved.</p>
+             <!-- Optional: Add social media links here -->
+             <!-- <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+             </div> -->
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        // Simple script to update the year automatically
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+		
+	</div>
+</footer>
+</body>
+</html>
+

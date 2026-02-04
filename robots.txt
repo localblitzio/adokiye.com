@@ -1,0 +1,6 @@
+﻿# robots.txt for adokiye.com
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://adokiye.com/sitemap.xml
